@@ -19,3 +19,4 @@ A step by step to create a react boilerplate
 15. in webpack.config.js we can add `module.exports = { mode: "development" }` or `production`
 16. install babel `npm i -D @babel/core @babel/cli @babel/preset-env` to `transpile` code from modern `js` to es5
 17. we can run babel `./node_modules/.bin/babel` or `$(npm bin)/babel ./src/index.js` or `$(npm bin)/babel ./src/index.js --presets=@babel/preset-env` babel in action.
+18. `npm i -D babel-loader` and add a module in `webpack config` `module: { rules: [ { test: /\.js$/, etc } ] }`, then `npm run build` and our build is now `transpile` with babel

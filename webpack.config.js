@@ -5,5 +5,18 @@ module.exports = {
   output: {
     path: path.join(__dirname, "dist"), // need an absolute path, __dirname is a global in node
     filename: "app.bundle.js"
+  },
+  module: {
+    rules: [
+      // babel loader rule
+      {
+        test: /\.js$/,
+        loader: "babel-loader",
+        exclude: /node_modules/,
+        options: {
+          presets: ["@babel/preset-env"]
+        }
+      }
+    ]
   }
 };
