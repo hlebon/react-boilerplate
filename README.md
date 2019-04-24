@@ -10,3 +10,5 @@
 7. with no config web pack by default run in production mode
 8. run `node dist/main.js` and it print `test`
 9. `git rm --cached -r ./node_modules` to untrack a file that was added
+10. to execute `webpack` create a script in `package.json` => ` { "scripts": {"build": "webpack" }} `, by default `npm script resolve in `./node_modules/bin/` folder
+11. we can run build in development `npm run build -- --mode development` to see `webpack` runtime in develop in `dist/` folder
