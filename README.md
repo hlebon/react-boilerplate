@@ -16,3 +16,6 @@ A step by step to create a react boilerplate
 12. add project to `github`
 13. `npm init -y` to see `package.json` structure
 14. create a `webpack.config.js` file and modify it, remove `./dist` and run `npm buil` from terminal
+15. in webpack.config.js we can add `module.exports = { mode: "development" }` or `production`
+16. install babel `npm i -D @babel/core @babel/cli @babel/preset-env` to `transpile` code from modern `js` to es5
+17. we can run babel `./node_modules/.bin/babel` or `$(npm bin)/babel ./src/index.js` or `$(npm bin)/babel ./src/index.js --presets=@babel/preset-env` babel in action.
