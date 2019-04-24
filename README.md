@@ -13,3 +13,5 @@ A step by step to create a react boilerplate
 9. `git rm --cached -r ./node_modules` to untrack a file that was added
 10. to execute `webpack` create a script in `package.json` => ` { "scripts": {"build": "webpack" }} `, by default `npm script resolve in `./node_modules/bin/` folder
 11. we can run build in development `npm run build -- --mode development` to see `webpack` runtime in develop in `dist/` folder
+12. add project to `github`
+13. `npm init -y` to see `package.json` structure
