@@ -20,3 +20,8 @@ A step by step to create a react boilerplate
 16. install babel `npm i -D @babel/core @babel/cli @babel/preset-env` to `transpile` code from modern `js` to es5
 17. we can run babel `./node_modules/.bin/babel` or `$(npm bin)/babel ./src/index.js` or `$(npm bin)/babel ./src/index.js --presets=@babel/preset-env` babel in action.
 18. `npm i -D babel-loader` and add a module in `webpack config` `module: { rules: [ { test: /\.js$/, etc } ] }`, then `npm run build` and our build is now `transpile` with babel
+19. Now if we want to use babel for react, install `npm -i -S react react-dom prop-types`
+20. In `src/app.js` to top react component, use react and try to render
+21. `npm run build` will throw an error cause don't know about `jsx` and react
+22. install another preset `npm i -D @babel/preset-react` and add a preset: `@babel/preset-react`
+23. `npm run build` just work fine! :)
