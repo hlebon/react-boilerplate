@@ -1,4 +1,5 @@
 # What is this?
+A step by step to create a react boilerplate
 
 ## creating a react project from scratch
 1. `npm init`
