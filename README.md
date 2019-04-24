@@ -9,3 +9,4 @@
 6. execute `./node_modules/bin/webpack` find `src/index.js` and create out file `./dist/main.js`
 7. with no config web pack by default run in production mode
 8. run `node dist/main.js` and it print `test`
+9. `git rm --cached -r ./node_modules` to untrack a file that was added
