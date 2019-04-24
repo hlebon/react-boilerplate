@@ -15,3 +15,4 @@ A step by step to create a react boilerplate
 11. we can run build in development `npm run build -- --mode development` to see `webpack` runtime in develop in `dist/` folder
 12. add project to `github`
 13. `npm init -y` to see `package.json` structure
+14. create a `webpack.config.js` file and modify it, remove `./dist` and run `npm buil` from terminal
