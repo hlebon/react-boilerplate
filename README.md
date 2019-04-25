@@ -25,3 +25,6 @@ A step by step to create a react boilerplate
 21. `npm run build` will throw an error cause don't know about `jsx` and react
 22. install another preset `npm i -D @babel/preset-react` and add a preset: `@babel/preset-react`
 23. `npm run build` just work fine! :)
+24. `npm install -D webpack-merge` to create a config for prod and development without duplication
+25. rename `webpack.config` to `webpack.config.base.js` and create two more file: `webpack.config.prod.js` and `webpack.config.dev.js`
+26. create new script to call prod or dev `webpack` config
