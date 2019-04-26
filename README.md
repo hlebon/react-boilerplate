@@ -28,3 +28,5 @@ A step by step to create a react boilerplate
 24. `npm install -D webpack-merge` to create a config for prod and development without duplication
 25. rename `webpack.config` to `webpack.config.base.js` and create two more file: `webpack.config.prod.js` and `webpack.config.dev.js`
 26. create new script to call prod or dev `webpack` config
+27. installing `npm i -D html-webpack-plugin` and update `webpack.config` to update new plugin `plugins: [new htmlWebPackPlugin()]` if we run `yarn run dev` on `/dist/index.html` we see a script on `script tag` without the root div for react
+28. now create a `index.html` inside `src/index.html` with the div for react and `webpackconfig` file add a template in plugin
