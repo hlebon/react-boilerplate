@@ -30,3 +30,4 @@ A step by step to create a react boilerplate
 26. create new script to call prod or dev `webpack` config
 27. installing `npm i -D html-webpack-plugin` and update `webpack.config` to update new plugin `plugins: [new htmlWebPackPlugin()]` if we run `yarn run dev` on `/dist/index.html` we see a script on `script tag` without the root div for react
 28. now create a `index.html` inside `src/index.html` with the div for react and `webpackconfig` file add a template in plugin
+29. to use a `webserver` install `npm i -D webpack-dev-server` and modify scripts in `package.json` to run: `"dev": "webpack-dev-server --open --config webpack.config.dev.js"`, and now `yarn run dev` to run as a web server app, we can change port on `webpack` config dev save `mode: "development", devServer: { port: 9000 }`, we can add `devtool: "source-map"` for a better debugger experience
